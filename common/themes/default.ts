@@ -200,7 +200,7 @@ const theme: DefaultTheme = {
     lgGutter: '6px',
     xlGutter: '6px',
     xxlGutter: '6px',
-  }
+  },
 };
 
 export default theme;
