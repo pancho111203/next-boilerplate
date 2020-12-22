@@ -28,3 +28,24 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## Modules included
+- Typescript
+- styled-components
+- ant design
+- eslint, prettier
+- automatic daily deployment (need to configure on github actions)
+- i18n internationalization with rosetta
+
+- TODO add cookie banner?
+## Configuration
+
+### Setup sitemap
+First add the following line to robots.txt
+
+```
+Sitemap: https://[FULL_URL]/sitemap.xml
+```
+
+Then add sitemap.xml to /public
