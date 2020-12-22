@@ -49,3 +49,8 @@ Sitemap: https://[FULL_URL]/sitemap.xml
 ```
 
 Then add sitemap.xml to /public
+
+### Setup ant landing
+First copy all ant landing files. index.jsx goes into pages, less files go into assets/less, all other jsx files go into components, and data.source.js and util.js go into common.
+
+Afterwards, just change the paths inside all files ('./util.js' into '../common/utils.js', etc) and you'll be ready to go!
